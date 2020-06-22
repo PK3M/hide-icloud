@@ -1,0 +1,7 @@
+mount -o rw,union,update /
+
+rm -rf /var/mobile/Library/Accounts/*
+
+uicache -a
+
+killall backboardd
